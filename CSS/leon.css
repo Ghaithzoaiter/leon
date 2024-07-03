@@ -151,19 +151,19 @@ padding: 20px;
 
 
 .header .links .icon span:first-child{
-    /* height:3px ; */
+
  width: 90%;
  transition: var(--main-transition);
 }
 
 .header .links .icon span:nth-child(2){
-    /* height: 3px; */
+  
     width: 50%;
     transition: var(--main-transition);
 }
 
 .header .links .icon span:last-child{
-    /* height: 3px; */
+  
     width: 100%;
 }
 
@@ -218,7 +218,6 @@ padding: 20px;
     background-image: url(../Images/1loading.jpg);
     background-size: cover;
     height: calc(100vh - 64px);
-    /* width:calc(100vh - 64px); */
     position: relative;
  
 }
@@ -350,31 +349,7 @@ padding: 20px;
   z-index: 2;
   width: 260px;
   }
-  .services .services-content .srv.image-column {
-    z-index: 2;
-  }
-
-  .services .services-content .image-column::before{
-    content: "";
-    background-color: var(--secondary-color);
-    width: 75px;
-    height: 50%;
-    position: absolute;
-    right: 300px;
-    border-left: 20px black;
-    bottom: -1000px;
-    z-index: 1;
-
-    /* content: "";
-    background-color: red;
-    width: 50px;
-    height: calc(100% + 100px);
-    top: -50px;
-    position: absolute;
-    right: 0;
-    z-index: 20; */
-  }
-
+ 
   
 .services .services-content .image-column  {
     width: 260px;
